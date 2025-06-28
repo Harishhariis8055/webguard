@@ -42,7 +42,7 @@ Unauthorized scanning of websites may violate terms of service or local laws. Us
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/webguard.git
+git clone https://github.com/Harishhariis8055/webguard.git
 cd webguard
 ```
 
