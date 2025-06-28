@@ -38,7 +38,7 @@ Unauthorized scanning of websites may violate terms of service or local laws. Us
 - Python 3.6 or higher
 - `requests` library
 
-## 🛠Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -80,7 +80,7 @@ Scanning https://example.com...
 URL: https://example.com
 Scan Time: 2025-01-15 10:30:45
 
-📋 Server Information:
+Server Information:
    Status Code: 200
    Server: cloudflare
    Powered By: Unknown
@@ -88,7 +88,7 @@ Scan Time: 2025-01-15 10:30:45
 
 Firewall/WAF Detection Results:
 
-   ✅ CloudFlare DETECTED
+   CloudFlare DETECTED
       Confidence: 85%
       Description: CloudFlare is a popular CDN and Web Application Firewall that provides DDoS protection, caching, and security features.
       Indicators:
@@ -96,13 +96,13 @@ Firewall/WAF Detection Results:
         • CloudFlare in Server header
         • IP 104.16.132.229 appears to be CloudFlare
 
-🔒 Security Headers Analysis:
-   ✅ Found security headers:
+Security Headers Analysis:
+   Found security headers:
       • Strict-Transport-Security: HSTS - Forces HTTPS connections
       • X-Frame-Options: Prevents clickjacking attacks
 ```
 
-## 🔍 What WebGuard Detects
+## What WebGuard Detects
 
 ### WAF/Firewall Solutions
 | WAF Provider | Detection Method |
@@ -139,7 +139,7 @@ Each detection includes specific indicators that triggered the identification:
 - IP range analysis (for some providers)
 - Response pattern analysis
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Scanning Multiple Sites
 You can scan multiple websites in sequence by running the tool and entering different URLs when prompted.
@@ -147,7 +147,7 @@ You can scan multiple websites in sequence by running the tool and entering diff
 ### Automated Scanning
 For batch scanning, you could modify the script or create a wrapper script that reads URLs from a file.
 
-## 🚨 Limitations
+## Limitations
 
 - **Passive Detection Only**: Uses only HTTP headers and responses
 - **No Payload Testing**: Doesn't send malicious payloads
@@ -155,7 +155,7 @@ For batch scanning, you could modify the script or create a wrapper script that 
 - **False Negatives**: Some WAFs might not be detected
 - **Rate Limiting**: Some sites may rate-limit requests
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-waf-detection`)
@@ -174,7 +174,7 @@ To add detection for a new WAF:
 
 This project is licensed under the MIT License - see the [LICENSE] file for details.
 
-## ⚖️ Ethical Use
+## Ethical Use
 
 This tool is designed for:
 - Security research and education
@@ -184,21 +184,21 @@ This tool is designed for:
 
 **Please use responsibly and ethically.**
 
-## 🔗 Related Tools
+## Related Tools
 
 - **Wappalyzer**: Technology detection
 - **Whatweb**: Web application fingerprinting
 - **Nmap**: Network discovery and security auditing
 - **Nikto**: Web vulnerability scanner
 
-## 📞 Support
+## Support
 
 If you encounter issues or have questions:
 1. Check the existing issues on GitHub
 2. Create a new issue with detailed information
 3. Include the full error message and steps to reproduce
 
-## 🏆 Acknowledgments
+## Acknowledgments
 
 - Thanks to the security research community
 - Inspired by various WAF detection tools
